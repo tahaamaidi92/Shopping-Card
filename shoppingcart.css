@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Gugi');
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe');
+body{
+background-image: url('https://images.wallpaperscraft.com/image/lamborghini_murcielago_lamborghini_sports_car_127451_1920x1080.jpg');
+height: 20%
+
+}
+.section1{
+background-color: white;
+margin: 10% 15%;
+padding: 20px;
+}
+.shopping-cart{
+    border-bottom: rgb(134, 124, 124) solid 1px;
+}
+.titre1{
+    font-family:'ZCOOL+KuaiLe', Arial, Helvetica, sans-serif; 
+}
+.image{
+    width: 200px;
+    height: 150px;
+}
+.Car{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+border-bottom: grey solid 2px;
+padding-top: 20px
+}
+.fas{
+    padding: 20px;
+    font-size: 50px
+}
+.Nomcar{
+    font-family: Gugi;
+    color: white;
+    position: relative;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 2s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+
+}
+
+.btn{
+    padding: 0 20px;
+    cursor: pointer;
+}
+.compteur{
+    font-family: Gugi, Arial, Helvetica, sans-serif 
+}

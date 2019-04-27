@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="shoppingcart.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+ <section class="section1">
+  <div class="shopping-cart">
+   <h1 class="titre1">Shopping Bag Total:<span id="somme" class="score">0</span> <span>$</span></h1>
+  </div>
+   <div class="Car" id="Audi">
+       <div class="div1-audi">
+        <i class="fas fa-times" onclick="remove1()"></i>
+        <i  id="coeur" class="fas fa-heart"  onclick="heart1()"></i>
+       </div>
+       <img src="https://auto.ndtvimg.com/car-images/big/lamborghini/aventador/lamborghini-aventador.jpg?v=5" alt="logo" class="image">
+       <span class="Nomcar"> Audi R8</span>
+       <div class="boutoncommande">
+           <button class="btn" onclick="incre()">+</button>
+           <span class="btn" id="produit1">0</span>
+           <button class="btn" onclick="decr()">-</button>
+       </div>
+       <p class="compteur"> <span id="prix1">0</span> <span>$</span> </p>
+   </div>
+
+   <div class="Car" id="BMW">
+    <div class="div1-Bmw">
+     <i class="fas fa-times" onclick="remove2()"></i>
+     <i  id="coeur1"  class="fas fa-heart" onclick="heart2()"></i>
+    </div>
+    <img src="https://www.cstatic-images.com/car-pictures/xl/usc80bmc862a021001.png" alt="logo" class="image">
+    <span class="Nomcar"> BMW 540D</span>
+    <div class="boutoncommande">
+        <button class="btn" onclick="incre2()">+</button>
+        <span class="btn" id="produit2">0</span>
+        <button class="btn" onclick="decr2()">-</button>
+    </div>
+    <p class="compteur"> <span id="prix2">0</span> <span>$</span> </p>
+</div>
+<div class="Car" id="Porche">
+    <div class="div1-porche">
+     <i class="fas fa-times" onclick="remove3()"></i>
+     <i class="fas fa-heart" id="coeur3" onclick="heart3()" ></i>
+    </div>
+    <img src="https://www.insurancecompanies.net/wp-content/uploads/2012/08/porche-911-turbo-convertible.png" alt="logo" class="image">
+    <span class="Nomcar"> PORCHE 911</span>
+    <div class="boutoncommande">
+        <button class="btn" onclick="incre3()">+</button>
+        <span class="btn" id="produit3">0</span>
+        <button class="btn" onclick="decr3()">-</button>
+    </div>
+    <p class="compteur"> <span id="prix3">0</span> <span>$</span> </p>
+</div>
+ </section> 
+ <script src="shoppingcart.js"></script>  
+</body>
+</html>
